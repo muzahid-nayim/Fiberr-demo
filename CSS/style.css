@@ -19,41 +19,7 @@ header{
     font-family: 'Roboto', sans-serif;
     font-size: 35px;
 }
-@media screen and (min-width:600px) {
-   .head-text h1{
-       font-size: 40px;
-       line-height: 48px;
-   }
-   .upperText{
-       width: 90%;
-   }
-}
- @media screen and (min-width:900px) { /*mega media -------------------------------------------- */
-  
-    .upperText{
-        width: 60%;
-       margin-right: 60%;
-       padding-left: 36px;
-    }
-    .head-text h1{
-        font-size: 45px;
-    }
-    
-    .upperText{
-        top: 100px;
-        position: absolute;
-        top: 150px;
-    }
-    header{
-        height: 100vh;
-        position: relative;
-        background-image: url("/Image/PngItem_50277.png");
-        background-repeat: no-repeat;
-        background-position: 90% 50%;
-        background-size: contain;
-    }
-    
-}/*mega media -------------------------------------------- */
+
 
 .searchBt{
     color: white;
@@ -91,6 +57,12 @@ header{
 }
 @media screen and (max-width: 950px) {
     .popular{
+        visibility: hidden;
+    }
+    .hide-for-small{
+        visibility: hidden;
+    }
+    .trusted-text{
         visibility: hidden;
     }
 }
@@ -131,3 +103,68 @@ li a:hover{
 .popular ul li:hover{
     background-color: white;
 }
+
+.trusted-by-container{
+   /* border: solid red; */
+}
+.trusted{
+/* border: solid green; */
+margin: 0 auto;
+position: relative;
+}
+.trusted ul{
+    display: flex;
+   list-style: none;
+    /* border: solid orange; */
+   width: 80%;
+   margin: 0 auto;
+   justify-content: space-around;
+}
+.trusted-text{
+    position: absolute;
+    top: 18px;
+    right: 77%;
+    font-weight: bold;
+    color: gray;
+}
+
+/* -----------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXX----------------------- */
+@media screen and (min-width:600px) {
+   .head-text h1{
+       font-size: 40px;
+       line-height: 48px;
+   }
+   .upperText{
+       width: 90%;
+   }
+}
+ @media screen and (min-width:900px) { /*mega media -------------------------------------------- */
+  
+    .upperText{
+        width: 60%;
+       margin-right: 60%;
+       padding-left: 36px;
+    }
+    .head-text h1{
+        font-size: 45px;
+    }
+    
+    .upperText{
+        top: 100px;
+        position: absolute;
+        top: 150px;
+    }
+    header{
+        height: 100vh;
+        position: relative;
+        background-image: url("/Image/PngItem_50277.png");
+        background-repeat: no-repeat;
+        background-position: 90% 50%;
+        background-size: contain;
+    }
+    .trusted ul{
+        width: 60%;
+    }
+    
+    
+}/*mega media -------------------------------------------- */
