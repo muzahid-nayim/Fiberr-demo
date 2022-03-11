@@ -11,7 +11,7 @@ header{
     width: 95%;
 }
 
-.hita{
+.header-italic{
     font-family: 'Emilys Candy', cursive;
 }
 .head-text h1{
@@ -55,17 +55,7 @@ header{
     text-align: start;
     
 }
-@media screen and (max-width: 950px) {
-    .popular{
-        visibility: hidden;
-    }
-    .hide-for-small{
-        visibility: hidden;
-    }
-    .trusted-text{
-        visibility: hidden;
-    }
-}
+
 
 .popular p{
     color: white;
@@ -104,13 +94,20 @@ li a:hover{
     background-color: white;
 }
 
-.trusted-by-container{
-   /* border: solid red; */
-}
+/* .trusted-by-container{
+    
+} */
+
 .trusted{
 /* border: solid green; */
-margin: 0 auto;
-position: relative;
+    margin: 0 auto;
+    position: relative;
+    background-color: rgba(238, 238, 238, 0.514);
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 .trusted ul{
     display: flex;
@@ -122,13 +119,76 @@ position: relative;
 }
 .trusted-text{
     position: absolute;
-    top: 18px;
+    top: 25px;
     right: 77%;
     font-weight: bold;
     color: gray;
 }
 
-/* -----------------------------------XXXXXXXXXXXXXXXXXXXXXXXXXXX----------------------- */
+.mother-a-hole{
+    background-color: rgb(241,253,247);
+    padding: 10% 0;
+}
+.a-whole{
+    width: 95%;
+    margin: 0 auto;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
+}
+.fingertips li{
+    list-style: none;
+    
+}
+.fingertips li h6{
+    color: rgb(41, 39, 39);
+}
+.fingertips li p{
+    color: rgba(83, 81, 81, 0.884);
+    font-size: larger;
+}
+.fingertips {
+    padding-left: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.a-whole{
+    width: 96%;
+    margin: 0 auto;
+}
+
+
+.marketPlace a{
+    font-weight: bold;
+    color: rgb(68, 68, 68);
+}
+.marketplace-container{
+  width: 94%;
+    margin: 0 auto;
+}
+.marketplace-container h2{
+    color: rgb(64,65,69);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.marketPlace{
+    
+    padding: 9px;
+}
+
+
+.row{
+    
+    
+    margin: 0 auto;
+}
+
+
+
+/* -----------------------------------MEDIA QUARRY----------------------- */
 @media screen and (min-width:600px) {
    .head-text h1{
        font-size: 40px;
@@ -167,4 +227,28 @@ position: relative;
     }
     
     
-}/*mega media -------------------------------------------- */
+}
+@media screen and (max-width: 950px) {
+    .popular{
+        visibility: hidden;
+    }
+    
+    .trusted-text{
+        visibility: hidden;
+    }
+    
+}
+
+@media screen and (min-width: 1000px) {
+    .f-video{
+    
+    margin: auto;
+}
+}
+
+@media screen and (max-width: 600px) {
+  .hide-for-small{
+        visibility: hidden;
+    }  
+}
+/*mega media -------------------------------------------- */
