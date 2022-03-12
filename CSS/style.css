@@ -145,7 +145,7 @@ li a:hover{
 }
 .fingertips li p{
     color: rgba(83, 81, 81, 0.884);
-    font-size: larger;
+    font-size: large;
 }
 .fingertips {
     padding-left: 0;
@@ -185,9 +185,63 @@ a{
     
     margin: 0 auto;
 }
+.fiber-business-container{
+    background-color: rgb(13,8,77);
+    
+}
+.fb-text p{
+    color: white;
+    background-color: rgb(88,74,255);
+    display: inline;
+    
+    border-radius: 35px;
+}
+.fb-text h2 ,h6,h5,h3{
+    color: rgb(255, 255, 255);
+}
+
+.fb-text .explore-bt {
+    background-color: rgb(29,191,115);
+    display: inline;
+    border-radius: 6px;
+    margin-bottom: 3000px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.fb-text .explore-bt:hover{
+    background-color: rgb(29, 159, 98);
+    
+}
+.fb-list {
+    list-style: none;
+    padding-left: 0;
+}
+.fb-list li{
+    margin-top: 1.4rem;
+}
+.fb-text h5{
+    line-height: 30px;
+}
+.teams{
+    font-family:  Courier, monospace;
+}
+
+.fb-secondary{
+    width: 95%;
+    margin: 0 auto;
+}
 
 
-
+.fb-text h3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+.fb-text h3 span{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* -----------------------------------MEDIA QUARRY----------------------- */
 @media screen and (min-width:600px) {
    .head-text h1{
@@ -197,6 +251,11 @@ a{
    .upperText{
        width: 90%;
    }
+}
+@media screen and (min-width :770px) {
+    .move-right{
+       margin-left: 8%;
+    }
 }
  @media screen and (min-width:900px) { /*mega media -------------------------------------------- */
   
@@ -226,8 +285,19 @@ a{
         width: 60%;
     }
     
+    .fiber-business-container{
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
     
 }
+@media screen and (max-width:900px){
+    .fiber-business-container{
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+}
+
 @media screen and (max-width: 950px) {
     .popular{
         visibility: hidden;
