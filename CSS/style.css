@@ -49,6 +49,7 @@ header{
     padding: 3px;
     padding-left: 5px;
     border-radius: 5px;
+   
 }
 .popular{
     position: relative;
@@ -196,7 +197,7 @@ a{
     
     border-radius: 35px;
 }
-.fb-text h2 ,h6,h5,h3{
+.fb-text h2 ,.fb-text h6, .fb-text h5, .fb-text h3{
     color: rgb(255, 255, 255);
 }
 
@@ -242,7 +243,83 @@ a{
 .fb-text h3 span{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+
+.fiverr-guide-container{
+    width: 96%;
+    margin: 0 auto;
+}
+.fiverr-guide-container h2{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.guide a h6{
+    font-weight: bold;
+    font-family:  'Lucida Sans', Arial, sans-serif;
+    color: rgb(65, 65, 65);
+    font-size: large;
+    margin-top: 12px;
+}
+.guide a p{
+    color: rgb(109, 108, 108);
+    font-family:   'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+   
+}
+
+.find-the-talent{
+    width: 93%;
+    margin: 0 auto;
+    background-color: rgb(69,9,27);
+    border-radius: 5px;
+    
+}
+.left-side{
+   
+    
+    
+    height: auto;
+    
+}
+.find-the-text h1{
+    color: white;
+    font-weight: bolder;
+    line-height: 40px;
+    font-size: 35px;
+    margin-top: 20px;
+}
+.find-the-text h1 span{
+    font-family:   cursive;
+}
+.get-start{
+    background-color: rgb(29,191,115);
+    color: white;
+    
+}
+.get-start:hover{
+    color: white;
+    background-color: rgb(29, 159, 98);
+
+}
+.find-the-talent-container{
+    
+    height: auto;
+}
+hr{
+    color: rgb(78, 78, 78);
+    width: 100%;
+    padding: 1px;
+}
 /* -----------------------------------MEDIA QUARRY----------------------- */
+@media screen and (max-width:600px){
+   
+   
+
+}
+
+
 @media screen and (min-width:600px) {
    .head-text h1{
        font-size: 40px;
@@ -251,14 +328,26 @@ a{
    .upperText{
        width: 90%;
    }
+   
+
 }
 @media screen and (min-width :770px) {
     .move-right{
        margin-left: 8%;
     }
 }
+
+
+
+
  @media screen and (min-width:900px) { /*mega media -------------------------------------------- */
-  
+    .find-the-talent{
+        background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1160,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608114/bg-signup-1160-x1.png");
+        background-repeat: no-repeat;
+        background-position: 70% 20%;
+        background-size: cover;
+        height: 60vh;
+    }
     .upperText{
         width: 60%;
        margin-right: 60%;
@@ -289,8 +378,30 @@ a{
         padding-top: 70px;
         padding-bottom: 100px;
     }
+    .left-side{
+        width: 70%;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
     
 }
+
+
+@media screen and (min-width: 1160px){
+    .find-the-talent{
+        background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
+        background-repeat: no-repeat;
+        
+       height: 70vh;
+    }
+    .left-side{
+        width: 60%;
+        margin-top: 10%;
+    }
+
+}
+
+
 @media screen and (max-width:900px){
     .fiber-business-container{
         padding-top: 40px;
@@ -311,7 +422,6 @@ a{
 
 @media screen and (min-width: 1000px) {
     .f-video{
-    
     margin: auto;
 }
 }
