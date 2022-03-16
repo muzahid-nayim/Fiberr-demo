@@ -312,12 +312,180 @@ hr{
     width: 100%;
     padding: 1px;
 }
+
+
+
+.hide-item{
+    width: 96%;
+    margin: 0 auto;
+   
+}
+.category,.about,.support,.more-from-fiverr,.community{
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.down-list {
+    list-style: none;
+    padding-left: 1.5em;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    line-height: 36px;
+    cursor: pointer;
+}
+
+.bg-list{
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(100, 100, 100);
+    line-height: 35px;
+    cursor: pointer;
+    padding-left: 0;
+}
+.bg-list li:hover{
+    text-decoration: underline;
+}
+.down-list li:hover{
+    text-decoration: underline;
+}
+.down-list li p{
+    font-size: 15px;
+    margin: 0;
+}
+
+.big-visible-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lgi{
+    width: 20%;
+}
+.lgi h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(31, 29, 29);
+}
+.colllaps h5{
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(31, 30, 30);
+}
+
+.for-big-visible{
+    margin: 0 auto;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.top-left,.bottom-right{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+.bottom-right{
+    display: flex;
+}
+
+
+.social{
+    display: flex;
+}
+
+.social a i{
+    font-size: 22px;
+    color: rgb(116,118,126);
+    
+    padding: 10px;
+    margin: 3px;
+    border-radius: 50%;
+}
+
+.social a i:hover{
+    background-color: rgba(82, 82, 82, 0.143);
+}
+
+
+footer{
+    width: 96%;
+    margin: 0 auto;
+   
+}
+.person{
+    
+    border-radius: 50%;
+    margin: 1px;
+    background: none;
+    
+}
+.person:hover{
+    /* border: none; */
+    background-color: gray;
+}
+.fa-person{
+    font-size: 25px;
+   padding-left: 9px;
+   padding-right: 9px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+  
+   border-radius: 50%;
+   
+}
+
+.langauge ,.usd{
+    padding: 6px 15px 6px 15px;
+    border: none;
+    margin-left: 9px;
+    margin-right: 9px;
+    background: gary;
+    border-radius: 30px;
+    background: none;
+}
+.tp:hover{
+    background-color: rgba(128, 128, 128, 0.294);
+    color: black;
+}
+
+.top h1{
+    font-size: 32px;
+    font-weight: bold;
+    color: gray;
+}
+.fiver-interNational p{
+    font-weight: 600;
+    color: rgba(175, 171, 171, 0.884);
+}
+.tp{
+    font-weight: 600;
+    color: rgb(109, 109, 109);
+}
+h1 sub{
+    font-size: 16px;
+    margin: 0;
+}
 /* -----------------------------------MEDIA QUARRY----------------------- */
 @media screen and (max-width:600px){
-   
+   .for-big-visible{
+       display: none;
+   }
    
 
 }
+@media screen and (max-width: 800px){
+    .lgi{
+    width: 33%;
+}
+}
+
 
 
 @media screen and (min-width:600px) {
@@ -328,13 +496,23 @@ hr{
    .upperText{
        width: 90%;
    }
+   .finter{
+       margin-top: 20px;
+   }
    
-
+.hide-item{
+       display: none;
+   }
+   .top-left,.bottom-right{
+       flex-direction: row;
+   }
 }
-@media screen and (min-width :770px) {
-    .move-right{
-       margin-left: 8%;
-    }
+
+@media screen and (min-width :848px) {
+  .footer-container{
+      flex-direction: row;
+      justify-content: space-between;
+  }
 }
 
 
@@ -346,7 +524,7 @@ hr{
         background-repeat: no-repeat;
         background-position: 70% 20%;
         background-size: cover;
-        height: 60vh;
+        height: 350PX;
     }
     .upperText{
         width: 60%;
@@ -392,7 +570,7 @@ hr{
         background-image: url("https://fiverr-res.cloudinary.com/q_auto,f_auto,w_1400,dpr_1.0/v1/attachments/generic_asset/asset/50218c41d277f7d85feeaf3efb4549bd-1599072608122/bg-signup-1400-x1.png");
         background-repeat: no-repeat;
         
-       height: 70vh;
+       height:400PX;
     }
     .left-side{
         width: 60%;
@@ -407,7 +585,9 @@ hr{
         padding-top: 40px;
         padding-bottom: 60px;
     }
+    
 }
+
 
 @media screen and (max-width: 950px) {
     .popular{
