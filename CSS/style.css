@@ -1,3 +1,7 @@
+
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -472,11 +476,102 @@ h1 sub{
     font-size: 16px;
     margin: 0;
 }
+
+
+
+
+/* .col-md-6{
+    border: solid;
+} */
+
+.emage{
+    border-radius: 11px;
+}
+.tex p:nth-child(1){
+    color: rgb(85, 82, 82);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.tex p:nth-child(3){
+    color: rgb(0,57,18);
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Playfair Display';
+}
+
+.fiverr-logo-maker{
+    background: #446EE7;
+    width: 100%;
+    margin: 0 auto;
+    /* display: flex; */
+}
+.top-side{
+    width: 90%;
+    margin: 0 auto;
+}
+.top-side button{
+    background-color: rgb(236, 240, 251);
+    border: none;
+    padding: 8px 30px;
+    border-radius: 5px;
+    color: rgb(68,110,231);
+    font-weight: 500;
+}
+
+.top-side button:hover{
+    background-color: rgb(215,225,251);
+}
+
+.top-side h3 span{
+    /* color: white; */
+    font-weight: 700;
+    font-size: 29px;
+    
+}
+.top-side>h3{
+    /* font-family: monospace; */
+    color: white;
+    font-size: 25px;
+}
+.top-side h1{
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+.italic{
+    font-family: 'Playfair Display';
+}
+.top-side{
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+   
+}
+
+.flogo-picture{
+    width: 100%;
+}
+
+.logo-img{
+    height: 430px;
+    width: 100%;
+}
+.logo-img-dextop{
+    
+    height: 285px;
+}
+.flogo-picture-dextop{
+    visibility: hidden;
+    
+}
+
 /* -----------------------------------MEDIA QUARRY----------------------- */
 @media screen and (max-width:600px){
    .for-big-visible{
        display: none;
    }
+   
    
 
 }
@@ -506,6 +601,11 @@ h1 sub{
    .top-left,.bottom-right{
        flex-direction: row;
    }
+
+   .fiverr-logo-maker{
+    width: 96%;
+    margin: 0 auto;
+}
 }
 
 @media screen and (min-width :848px) {
@@ -561,8 +661,24 @@ h1 sub{
         margin-top: 5%;
         margin-left: 5%;
     }
+    .fiverr-logo-maker{
+    display: flex;
+    padding: 15px;
     
 }
+.flogo-picture{
+    visibility: hidden;
+    display: none;
+}
+.flogo-picture-dextop{
+    visibility: visible;
+}
+.fiverr-logo-maker{
+    height: 300px;
+}
+
+}
+
 
 
 @media screen and (min-width: 1160px){
