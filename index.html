@@ -11,9 +11,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/CSS/style2.css">
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
 
 </head>
 <body>
+    
     
     <header>
 
@@ -51,6 +57,14 @@
 
         </div>
     </header>
+
+
+
+
+   
+
+
+
 
 
 
@@ -100,6 +114,8 @@
     </div>
 
 
+
+    
 
     
 
@@ -258,7 +274,7 @@
 
 
 
-   <div class="row-col-slider">
+    <div class="row-col-slider">
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
 
 
@@ -332,7 +348,7 @@
                 </div>
             </div>
           </div> 
-          <!-- --------------------------------------------- -->
+          
             </div>
           
 
@@ -348,7 +364,7 @@
           <span class="visually-hidden">Next</span>
         </button>
       </div>
-   </div>
+   </div> 
 
 
 
@@ -434,7 +450,7 @@
 <div class="last-nav mt-5" >
     <div class="hide-item">
 
-         <div class="category colllaps" onclick="angle_change();"   data-bs-toggle="collapse" href="#category-id" >
+         <div class="category colllaps" onclick="angle();"   data-bs-toggle="collapse" href="#category-id" >
          <h5 class="px-4">Category</h5>
          <img id="first-angle" class="ctg-ang mx-3" src="/icon/angle-down-solid.svg" width="15px" alt="">
         </a>
@@ -455,7 +471,7 @@
        </ul>
     </div>
 
-    <div class="about colllaps" onclick="angle_change2();"   data-bs-toggle="collapse" href="#about-id" >
+    <div class="about colllaps" onclick="angle2();"   data-bs-toggle="collapse" href="#about-id" >
         <h5 class="px-4">About</h5>
         <img id="second-angle"  class="ctg-ang mx-3" src="/icon/angle-down-solid.svg" width="15px" alt="">
        </a>
@@ -474,7 +490,7 @@
         </ul>
      </div>
 
-     <div class="support colllaps" onclick="angle_change3();"   data-bs-toggle="collapse" href="#support-id" >
+     <div class="support colllaps" onclick="angle3();"   data-bs-toggle="collapse" href="#support-id" >
         <h5 class="px-4">Support</h5>
         <img id="third-angle" class="ctg-ang mx-3" src="/icon/angle-down-solid.svg" width="15px" alt="">
        </a>
@@ -490,7 +506,7 @@
         </ul>
      </div>
 
-     <div class="community colllaps"   data-bs-toggle="collapse" href="#community-id" >
+     <div class="community colllaps" onclick="angle4();"  data-bs-toggle="collapse" href="#community-id" >
         <h5 class="px-4">Community</h5>
         <img id="forth-angle"  class="ctg-ang mx-3" src="/icon/angle-down-solid.svg" width="15px" alt="">
        </a>
@@ -510,7 +526,7 @@
         </ul>
      </div>
 
-     <div class="more-from-fiverr colllaps"   data-bs-toggle="collapse" href="#more-from-fiverr-id" >
+     <div class="more-from-fiverr colllaps" onclick="angle5();"  data-bs-toggle="collapse" href="#more-from-fiverr-id" >
         <h5 class="px-4">More From Fiverr</h5>
         <img id="fifth-angle"  class="ctg-ang mx-3" src="/icon/angle-down-solid.svg" width="15px" alt="">
        </a>
@@ -653,7 +669,6 @@
     </footer>
 
  
-
 
 
     <script src="js/bootstrap.js"></script>

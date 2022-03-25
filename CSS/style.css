@@ -565,6 +565,9 @@ h1 sub{
     visibility: hidden;
     
 }
+.ctg-ang{
+    transition: all .6s;
+}
 
 /* -----------------------------------MEDIA QUARRY----------------------- */
 @media screen and (max-width:600px){
